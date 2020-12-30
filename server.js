@@ -4,9 +4,9 @@ const mongoose = require('mongoose')
 const cors = require('cors')
 
 // require route files
-const exampleRoutes = require('./angels-list/routes/example_routes')
-const userRoutes = require('./angels-list/routes/user_routes')
-const whiskeyRoutes = require('./angels-list/routes/whiskey_routes')
+const exampleRoutes = require('./angels-share/routes/example_routes')
+const userRoutes = require('./angels-share/routes/user_routes')
+const whiskeyRoutes = require('./angels-share/routes/whiskey_routes')
 
 // require middleware
 const errorHandler = require('./lib/error_handler')

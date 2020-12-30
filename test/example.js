@@ -1,7 +1,7 @@
 process.env.TESTENV = true
 
-let Example = require('../angels-list/models/example.js')
-let User = require('../angels-list/models/user')
+let Example = require('../angels-share/models/example.js')
+let User = require('../angels-share/models/user')
 
 const crypto = require('crypto')
 
